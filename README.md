@@ -66,7 +66,14 @@ psychological-science-research-team/
 ├── avatars/                             # 团队与 9 个角色的 PNG 头像
 │   ├── team.png
 │   ├── team-lead.png
-│   └── <8 specialist avatars>.png
+│   ├── theory-mechanisms.png
+│   ├── evidence-cartographer.png
+│   ├── creative-ideation.png
+│   ├── methodology-architect.png
+│   ├── psychometrics-specialist.png
+│   ├── statistics-analyst.png
+│   ├── ethics-open-science.png
+│   └── adversarial-reviewer.png
 ├── skills/
 │   ├── metacognitive-regulation/SKILL.md
 │   ├── creative-scientific-reasoning/SKILL.md
