@@ -33,3 +33,19 @@
 
 ---
 See the repository [README](../README.md) for the full file-tree overview.
+
+## 发布操作 / Publishing on GitHub
+
+1. 打开仓库 **Releases** 页面，选择 **Draft a new release**。
+2. 选择 **Choose a tag → Create new tag: `v1.0.0`**，目标分支 `main`。
+3. 标题填写 `v1.0.0 — Psychological Science Research Collective (WorkBuddy + TRAE)`。
+4. 发行说明可复制本文档上方的内容。
+5. 在 **Attach binaries by dropping them here or selecting them** 中添加下面两个 ZIP，上传完成后选择 **Publish release**。
+6. 返回 Release 页核对两个 Assets 均可下载，并检查文件名与 SHA-256。
+
+### 校验和 / SHA-256
+
+```text
+a1aab13a9db4fc483313612bfa304a9bf379396bc8fbb5cc4812749ab8036ad6  psychological-science-research-team-workbuddy-v1.0.0.zip
+0da9e6e04d8629f9fbc65f2f41dd9da036ac3d82feb7b3bc153ca539c37040cc  psychological-science-research-collective-TRAE-v1.0.0.zip
+```
