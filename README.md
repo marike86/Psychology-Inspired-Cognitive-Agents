@@ -20,6 +20,19 @@
 
 > 若 Releases 中暂未出现 `v1.0.0` 或缺少两个 ZIP 附件，请勿将本页视为已完成发布。两个原始 ZIP 需要作为该 Release 的 Assets 上传；GitHub 自动生成的 “Source code (zip)” 不等于上述平台安装包。
 
+## WorkBuddy 心理支持与任务陪伴 / Psychological Support and Task Companionship
+
+两支独立的 WorkBuddy 专家团均附中英文角色配置、使用说明和客户端验收用例。Two standalone WorkBuddy teams include bilingual role configurations, setup notes and client acceptance checks.
+
+| 团队 / Team | 下载 / Download | 源码与说明 / Source and guide |
+| --- | --- | --- |
+| 心理咨询支持团 / Psychological Support Team | [WorkBuddy ZIP](workbuddy/psychological-support-team-workbuddy-v1.0.0.zip) | [中文](workbuddy/psychological-support/README.md) · [English](workbuddy/psychological-support/README.en.md) |
+| 有效努力陪伴团 / Effective Effort Companion Team | [WorkBuddy ZIP](workbuddy/effective-effort-team-workbuddy-v1.0.0.zip) | [中文](workbuddy/effective-effort/README.md) · [English](workbuddy/effective-effort/README.en.md) |
+
+心理咨询支持团由人本取向团长按需调度 15 位成员。有效努力陪伴团帮助用户取得可见进展，并由独立情绪陪伴员回应任务挫败和对话摩擦。The support team has fifteen selectable perspectives. The effort team helps users make visible progress and includes a dedicated Emotional Companion for task frustration and conversational friction.
+
+`workbuddy/` 下两个源码目录各自包含团队清单、团长入口、角色文件和头像。Each source directory under `workbuddy/` contains its own manifest, lead settings, role files and avatars. See the [official WorkBuddy team specification](https://open.workbuddy.cn/docs/expert-team).
+
 ## 设计理念 / Design
 
 **学科理论 → 认知策略 → 专家协作 → 工具与 Skill → 科研交付**

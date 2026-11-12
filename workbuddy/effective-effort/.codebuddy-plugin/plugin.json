@@ -1,0 +1,157 @@
+{
+  "name": "effective-effort",
+  "version": "1.0.0",
+  "description": "An AI task companion team for meaningful progress, shared execution and emotional repair during the conversation.",
+  "author": {
+    "name": "marike86",
+    "email": "your-email@example.com"
+  },
+  "agents": [
+    "./agents/effective-effort-team-lead.md",
+    "./agents/effective-effort-prioritization.md",
+    "./agents/effective-effort-bottleneck.md",
+    "./agents/effective-effort-co-execution.md",
+    "./agents/effective-effort-feedback.md",
+    "./agents/effective-effort-emotion-companion.md"
+  ],
+  "expertType": "team",
+  "agentName": "effective-effort-team-lead",
+  "teamInfo": {
+    "leadAgent": "effective-effort-team-lead",
+    "memberAgents": [
+      "effective-effort-prioritization",
+      "effective-effort-bottleneck",
+      "effective-effort-co-execution",
+      "effective-effort-feedback",
+      "effective-effort-emotion-companion"
+    ]
+  },
+  "displayName": {
+    "zh": "有效努力陪伴团",
+    "en": "Effective Effort Companion Team"
+  },
+  "profession": {
+    "zh": "有效努力陪伴团",
+    "en": "Effective Effort Companion Team"
+  },
+  "displayDescription": {
+    "zh": "陪你选择值得推进的事、判断卡点、一起完成一小步，并在任务受挫或对话摩擦时调整节奏与陪伴方式。",
+    "en": "Choose a worthwhile task, locate the bottleneck, take a step together and repair friction when the conversation gets in the way."
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "zh": "我有十分钟，陪我推进眼前这件事。",
+    "en": "I have ten minutes. Help me move this task forward."
+  },
+  "plugin": "effective-effort",
+  "tags": [
+    {
+      "zh": "任务陪伴",
+      "en": "Task Companionship"
+    },
+    {
+      "zh": "共同执行",
+      "en": "Co-Execution"
+    },
+    {
+      "zh": "情绪支持",
+      "en": "Emotional Support"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我有十分钟，陪我推进眼前这件事。",
+      "en": "I have ten minutes. Help me move this task forward."
+    },
+    {
+      "zh": "陪我直接做第一步，我想边做边调整。",
+      "en": "Work alongside me on the first step so we can adjust as we go."
+    },
+    {
+      "zh": "叫情绪陪伴员，我们先处理刚才对话里的不舒服。",
+      "en": "Call the Emotional Companion and help with the friction in our conversation."
+    }
+  ],
+  "members": [
+    {
+      "id": "effective-effort-team-lead",
+      "name": {
+        "zh": "有效努力团长",
+        "en": "Effective Effort Lead"
+      },
+      "profession": {
+        "zh": "AI 陪伴团主理人",
+        "en": "AI Companion Team Lead"
+      },
+      "avatar": "avatars/effective-effort-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "effective-effort-prioritization",
+      "name": {
+        "zh": "方向与取舍",
+        "en": "Prioritization"
+      },
+      "profession": {
+        "zh": "AI 任务陪伴成员",
+        "en": "AI Task Companion"
+      },
+      "avatar": "avatars/effective-effort-prioritization.png",
+      "role": "member"
+    },
+    {
+      "id": "effective-effort-bottleneck",
+      "name": {
+        "zh": "卡点判断",
+        "en": "Bottleneck Finder"
+      },
+      "profession": {
+        "zh": "AI 任务陪伴成员",
+        "en": "AI Task Companion"
+      },
+      "avatar": "avatars/effective-effort-bottleneck.png",
+      "role": "member"
+    },
+    {
+      "id": "effective-effort-co-execution",
+      "name": {
+        "zh": "共同执行",
+        "en": "Co-Execution"
+      },
+      "profession": {
+        "zh": "AI 任务陪伴成员",
+        "en": "AI Task Companion"
+      },
+      "avatar": "avatars/effective-effort-co-execution.png",
+      "role": "member"
+    },
+    {
+      "id": "effective-effort-feedback",
+      "name": {
+        "zh": "反馈与调整",
+        "en": "Feedback and Adjustment"
+      },
+      "profession": {
+        "zh": "AI 任务陪伴成员",
+        "en": "AI Task Companion"
+      },
+      "avatar": "avatars/effective-effort-feedback.png",
+      "role": "member"
+    },
+    {
+      "id": "effective-effort-emotion-companion",
+      "name": {
+        "zh": "情绪陪伴员",
+        "en": "Emotional Companion"
+      },
+      "profession": {
+        "zh": "AI 任务陪伴成员",
+        "en": "AI Task Companion"
+      },
+      "avatar": "avatars/effective-effort-emotion-companion.png",
+      "role": "member"
+    }
+  ],
+  "homepage": "https://github.com/marike86/Psychology-Inspired-Cognitive-Agents"
+}

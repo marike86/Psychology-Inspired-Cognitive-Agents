@@ -1,0 +1,307 @@
+{
+  "name": "psychological-support",
+  "version": "1.0.0",
+  "description": "A person-centered AI team for focused reflection with fifteen selectable psychological perspectives.",
+  "author": {
+    "name": "marike86",
+    "email": "your-email@example.com"
+  },
+  "agents": [
+    "./agents/psychological-support-team-lead.md",
+    "./agents/psychological-support-psychodynamic.md",
+    "./agents/psychological-support-attachment.md",
+    "./agents/psychological-support-mentalization.md",
+    "./agents/psychological-support-schema.md",
+    "./agents/psychological-support-emotion-focused.md",
+    "./agents/psychological-support-gestalt.md",
+    "./agents/psychological-support-compassion-focused.md",
+    "./agents/psychological-support-cognitive-behavioral.md",
+    "./agents/psychological-support-acceptance-commitment.md",
+    "./agents/psychological-support-dialectical-skills.md",
+    "./agents/psychological-support-interpersonal.md",
+    "./agents/psychological-support-systemic.md",
+    "./agents/psychological-support-narrative.md",
+    "./agents/psychological-support-solution-focused.md",
+    "./agents/psychological-support-existential.md"
+  ],
+  "expertType": "team",
+  "agentName": "psychological-support-team-lead",
+  "teamInfo": {
+    "leadAgent": "psychological-support-team-lead",
+    "memberAgents": [
+      "psychological-support-psychodynamic",
+      "psychological-support-attachment",
+      "psychological-support-mentalization",
+      "psychological-support-schema",
+      "psychological-support-emotion-focused",
+      "psychological-support-gestalt",
+      "psychological-support-compassion-focused",
+      "psychological-support-cognitive-behavioral",
+      "psychological-support-acceptance-commitment",
+      "psychological-support-dialectical-skills",
+      "psychological-support-interpersonal",
+      "psychological-support-systemic",
+      "psychological-support-narrative",
+      "psychological-support-solution-focused",
+      "psychological-support-existential"
+    ]
+  },
+  "displayName": {
+    "zh": "心理咨询支持团",
+    "en": "Psychological Support Team"
+  },
+  "profession": {
+    "zh": "心理咨询支持团",
+    "en": "Psychological Support Team"
+  },
+  "displayDescription": {
+    "zh": "由人本取向团长按需召集十五种心理学视角，围绕一个议题倾听、梳理情绪与关系模式，并进行阶段性总结。",
+    "en": "A person-centered lead draws on fifteen selectable psychological perspectives for focused reflection and summaries."
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "今天先听我讲一件事。",
+    "en": "Please listen while I talk through one thing."
+  },
+  "plugin": "psychological-support",
+  "tags": [
+    {
+      "zh": "心理支持",
+      "en": "Psychological Support"
+    },
+    {
+      "zh": "情绪与关系",
+      "en": "Emotions and Relationships"
+    },
+    {
+      "zh": "多流派",
+      "en": "Multiple Approaches"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "今天先听我讲一件事。",
+      "en": "Please listen while I talk through one thing."
+    },
+    {
+      "zh": "请用依恋和心智化两个视角看同一件事，再问我一个问题。",
+      "en": "Compare the attachment and mentalization perspectives, then ask me one question."
+    },
+    {
+      "zh": "收一下，我们到现在弄清了什么？",
+      "en": "Summarize what we have clarified so far."
+    }
+  ],
+  "members": [
+    {
+      "id": "psychological-support-team-lead",
+      "name": {
+        "zh": "人本取向团长",
+        "en": "Person-Centered Lead"
+      },
+      "profession": {
+        "zh": "AI 心理支持主理人",
+        "en": "AI Support Team Lead"
+      },
+      "avatar": "avatars/psychological-support-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "psychological-support-psychodynamic",
+      "name": {
+        "zh": "心理动力学",
+        "en": "Psychodynamic"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-psychodynamic.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-attachment",
+      "name": {
+        "zh": "依恋取向",
+        "en": "Attachment-Informed"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-attachment.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-mentalization",
+      "name": {
+        "zh": "心智化（MBT）",
+        "en": "Mentalization (MBT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-mentalization.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-schema",
+      "name": {
+        "zh": "图式疗法",
+        "en": "Schema Therapy"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-schema.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-emotion-focused",
+      "name": {
+        "zh": "个体情绪聚焦（EFT）",
+        "en": "Individual Emotion-Focused (EFT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-emotion-focused.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-gestalt",
+      "name": {
+        "zh": "格式塔",
+        "en": "Gestalt-Informed"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-gestalt.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-compassion-focused",
+      "name": {
+        "zh": "慈悲聚焦（CFT）",
+        "en": "Compassion-Focused (CFT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-compassion-focused.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-cognitive-behavioral",
+      "name": {
+        "zh": "认知行为（CBT）",
+        "en": "Cognitive Behavioral (CBT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-cognitive-behavioral.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-acceptance-commitment",
+      "name": {
+        "zh": "接纳与承诺（ACT）",
+        "en": "Acceptance and Commitment (ACT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-acceptance-commitment.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-dialectical-skills",
+      "name": {
+        "zh": "辩证行为技能（DBT）",
+        "en": "Dialectical Behavior Skills (DBT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-dialectical-skills.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-interpersonal",
+      "name": {
+        "zh": "人际心理治疗（IPT）视角",
+        "en": "Interpersonal (IPT) Perspective"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-interpersonal.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-systemic",
+      "name": {
+        "zh": "系统式家庭与关系视角",
+        "en": "Systemic Family and Relationship"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-systemic.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-narrative",
+      "name": {
+        "zh": "叙事疗法",
+        "en": "Narrative"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-narrative.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-solution-focused",
+      "name": {
+        "zh": "焦点解决短期疗法（SFBT）",
+        "en": "Solution-Focused Brief (SFBT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-solution-focused.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-existential",
+      "name": {
+        "zh": "存在主义取向",
+        "en": "Existential"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-existential.png",
+      "role": "member"
+    }
+  ],
+  "homepage": "https://github.com/marike86/Psychology-Inspired-Cognitive-Agents"
+}
