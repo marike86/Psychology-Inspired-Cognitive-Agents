@@ -1,7 +1,7 @@
 # Psychology-Inspired Cognitive Agents
 ### 心理学启发的认知智能体系统
 
-**Psychological Science Research Collective (PSRC) · v1.0.0 · WorkBuddy + TRAE**
+**Psychological Science Research Collective (PSRC) · v2.0.0 · WorkBuddy + TRAE**
 
 将心理学研究的不只是*内容*，而是研究中使用的**认知与协作策略**：在科研工作流中引入元认知调节、创造性科学推理、建设性重评、认知资源管理、社会认识协作和按需 Skill 路由。
 
@@ -9,16 +9,18 @@
 
 ## 下载 / Download
 
-**v1.0.0 对应两套平台适配包**（以 GitHub **Releases** 的资产为正式发行件）：
+**v2.0.0 对应两套平台适配包**（以 GitHub **Releases** 的资产为正式发行件）：
 
 | 平台 | 发行包 | 用途 |
 | --- | --- | --- |
-| [WorkBuddy](https://open.workbuddy.cn/) | `psychological-science-research-team-workbuddy-v1.0.0.zip` | 腾讯 WorkBuddy 专家团，团长与成员、共享 Skills、插件配置和头像 |
-| [TRAE](https://www.trae.cn/) | `psychological-science-research-collective-TRAE-v1.0.0.zip` | TRAE IDE 项目级认知规则、Subagents、Skills、验证测试 |
+| [WorkBuddy](https://open.workbuddy.cn/) | `psychological-science-research-team-workbuddy-v2.0.0.zip` | 腾讯 WorkBuddy 专家团，团长与成员、共享 Skills、插件配置和头像 |
+| [TRAE](https://www.trae.cn/) | `psychological-science-research-collective-TRAE-v2.0.0.zip` | TRAE IDE 项目级认知规则、Subagents、单一主 Skill（细则在 `references/`）、验证测试 |
 
-**[查看 Releases](https://github.com/marike86/Psychology-Inspired-Cognitive-Agents/releases)** · **[v1.0.0 发行说明](docs/RELEASE_NOTES_v1.0.0.md)**
+**[查看 Releases](https://github.com/marike86/Psychology-Inspired-Cognitive-Agents/releases)** · **[v2.0.0 发行说明](docs/RELEASE_NOTES_v2.0.0.md)** · **[v1.0.0 发行说明](docs/RELEASE_NOTES_v1.0.0.md)**
 
-> 若 Releases 中暂未出现 `v1.0.0` 或缺少两个 ZIP 附件，请勿将本页视为已完成发布。两个原始 ZIP 需要作为该 Release 的 Assets 上传；GitHub 自动生成的 “Source code (zip)” 不等于上述平台安装包。
+> 若 Releases 中暂未出现 `v2.0.0` 或缺少两个 ZIP 附件，请勿将本页视为已完成发布。两个原始 ZIP 需要作为该 Release 的 Assets 上传；GitHub 自动生成的 “Source code (zip)” 不等于上述平台安装包。
+
+> 仓库 `main` 分支现在同时收录两套发行包的**可读源码**：`trae/`（TRAE v2.0.0，28 个文件）与 `workbuddy/`（WorkBuddy 各团队）。
 
 ## WorkBuddy 心理支持与有效努力陪伴团 / Psychological Support and Effective Effort Team
 
@@ -103,10 +105,12 @@ psychological-science-research-team/
 
 **安装/提交**：完整解压，按 `README.md` 与 `SUBMISSION_CHECKLIST.md` 验证；向 WorkBuddy 提交前检查 `.codebuddy-plugin/plugin.json` 中的作者信息。参见 [WorkBuddy 专家团规范](https://open.workbuddy.cn/docs/expert-team)。
 
-### TRAE 项目 · 25 files
+### TRAE 项目 · 28 files
+
+v2.0 将原先 10 个独立 Skill 合并为 **1 个主 Skill**，细则拆入 `references/` 按需加载：触发语义更统一，运行时上下文更干净，也便于全局安装与公开分发。
 
 ```text
-psychological-science-research-collective-trae/
+psychological-science-research-collective/
 ├── AGENTS.md                             # 共享认知架构与调度规则
 ├── .trae/
 │   ├── agents/                           # 8 个项目级 Subagents
@@ -118,28 +122,33 @@ psychological-science-research-collective-trae/
 │   │   ├── statistics-analyst.md
 │   │   ├── ethics-open-science.md
 │   │   └── adversarial-reviewer.md
-│   └── skills/                           # 10 个 SKILL.md
-│       ├── metacognitive-regulation/SKILL.md
-│       ├── creative-scientific-reasoning/SKILL.md
-│       ├── constructive-reframing/SKILL.md
-│       ├── cognitive-resource-management/SKILL.md
-│       ├── social-epistemic-collaboration/SKILL.md
-│       ├── skill-discovery-router/SKILL.md
-│       ├── research-lifecycle/SKILL.md
-│       ├── evidence-traceability/SKILL.md
-│       ├── methods-and-psychometrics/SKILL.md
-│       └── adversarial-peer-review/SKILL.md
+│   └── skills/
+│       └── psychological-research-collective/   # 唯一主 Skill
+│           ├── SKILL.md                  # 先行原则、共享机制、科研流程、专家路由
+│           └── references/              # 细则模块，按需加载
+│               ├── metacognitive-regulation.md
+│               ├── creative-scientific-reasoning.md
+│               ├── constructive-reframing.md
+│               ├── cognitive-resource-management.md
+│               ├── social-epistemic-collaboration.md
+│               ├── research-lifecycle.md
+│               ├── evidence-traceability.md
+│               ├── methods-and-psychometrics.md
+│               ├── adversarial-peer-review.md
+│               ├── skill-discovery-router.md
+│               └── theory-and-sources.md
 ├── docs/
 │   ├── REFERENCES.md
-│   └── MIGRATION.md                      # WorkBuddy → TRAE 迁移映射
+│   └── MIGRATION.md                      # WorkBuddy → TRAE 迁移映射（含 1.0→2.0 合并表）
 ├── tests/
 │   ├── ACCEPTANCE_TESTS.md
-│   └── validate_package.py
+│   ├── validate_package.py               # 离线结构校验
+│   └── validate_install.py               # 校验包与全局安装副本一致
 ├── LICENSE
 └── README.md
 ```
 
-**安装**：解压并在 TRAE IDE **打开整个根目录**；保留隐藏的 `.trae/` 文件夹；按包内 `README.md` 检查 AGENTS.md 导入、Subagents、项目 Skills，再执行验收测试。参见 [TRAE Subagents](https://docs.trae.cn/ide_subagents) 与 [TRAE Skills](https://docs.trae.cn/ide_skills)。
+**安装**：解压并在 TRAE IDE **打开整个根目录**；保留隐藏的 `.trae/` 文件夹；按包内 `README.md` 检查 AGENTS.md 导入、Subagents、主 Skill，再执行验收测试。也可全局安装到 `~/.trae-cn/skills/` 与 `~/.trae-cn/agents/`。参见 [TRAE Subagents](https://docs.trae.cn/ide_subagents) 与 [TRAE Skills](https://docs.trae.cn/ide_skills)。
 
 ## 专家组成 / Research specialists
 
