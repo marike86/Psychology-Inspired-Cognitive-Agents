@@ -1,0 +1,382 @@
+{
+  "name": "psychological-companion",
+  "version": "1.1.0",
+  "description": "One AI companion team for focused reflection, effective effort and repair during the conversation.",
+  "author": {
+    "name": "marike86",
+    "email": "your-email@example.com"
+  },
+  "agents": [
+    "./agents/psychological-companion-team-lead.md",
+    "./agents/psychological-support-psychodynamic.md",
+    "./agents/psychological-support-attachment.md",
+    "./agents/psychological-support-mentalization.md",
+    "./agents/psychological-support-schema.md",
+    "./agents/psychological-support-emotion-focused.md",
+    "./agents/psychological-support-gestalt.md",
+    "./agents/psychological-support-compassion-focused.md",
+    "./agents/psychological-support-cognitive-behavioral.md",
+    "./agents/psychological-support-acceptance-commitment.md",
+    "./agents/psychological-support-dialectical-skills.md",
+    "./agents/psychological-support-interpersonal.md",
+    "./agents/psychological-support-systemic.md",
+    "./agents/psychological-support-narrative.md",
+    "./agents/psychological-support-solution-focused.md",
+    "./agents/psychological-support-existential.md",
+    "./agents/effective-effort-prioritization.md",
+    "./agents/effective-effort-bottleneck.md",
+    "./agents/effective-effort-co-execution.md",
+    "./agents/effective-effort-feedback.md",
+    "./agents/effective-effort-emotion-companion.md"
+  ],
+  "expertType": "team",
+  "agentName": "psychological-companion-team-lead",
+  "teamInfo": {
+    "leadAgent": "psychological-companion-team-lead",
+    "memberAgents": [
+      "psychological-support-psychodynamic",
+      "psychological-support-attachment",
+      "psychological-support-mentalization",
+      "psychological-support-schema",
+      "psychological-support-emotion-focused",
+      "psychological-support-gestalt",
+      "psychological-support-compassion-focused",
+      "psychological-support-cognitive-behavioral",
+      "psychological-support-acceptance-commitment",
+      "psychological-support-dialectical-skills",
+      "psychological-support-interpersonal",
+      "psychological-support-systemic",
+      "psychological-support-narrative",
+      "psychological-support-solution-focused",
+      "psychological-support-existential",
+      "effective-effort-prioritization",
+      "effective-effort-bottleneck",
+      "effective-effort-co-execution",
+      "effective-effort-feedback",
+      "effective-effort-emotion-companion"
+    ]
+  },
+  "displayName": {
+    "zh": "心理支持与有效努力陪伴团",
+    "en": "Psychological Support and Effective Effort Team"
+  },
+  "profession": {
+    "zh": "心理支持与有效努力陪伴团",
+    "en": "Psychological Support and Effective Effort Team"
+  },
+  "displayDescription": {
+    "zh": "同一位团长按需陪你梳理情绪与关系、推进眼前任务，并在受挫或对话出现摩擦时及时调整陪伴方式。",
+    "en": "One lead helps you explore emotions and relationships, make progress on a task, and repair friction during the conversation."
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我想说说今天这件事，也希望等会儿能做一点。",
+    "en": "I'd like to talk about what happened today and then see if I can take a small step."
+  },
+  "plugin": "psychological-companion",
+  "tags": [
+    {
+      "zh": "心理支持",
+      "en": "Psychological Support"
+    },
+    {
+      "zh": "有效努力",
+      "en": "Effective Effort"
+    },
+    {
+      "zh": "情绪陪伴",
+      "en": "Emotional Companionship"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我想说说今天这件事，也希望等会儿能做一点。",
+      "en": "I'd like to talk about what happened today and then see if I can take a small step."
+    },
+    {
+      "zh": "陪我做眼前这一步，边做边调整。",
+      "en": "Work alongside me on the next step and adjust with me as we go."
+    },
+    {
+      "zh": "刚才的回应让我不舒服，我们先把这段话说清楚。",
+      "en": "That last reply bothered me. Help me work through what happened in our conversation."
+    }
+  ],
+  "members": [
+    {
+      "id": "psychological-companion-team-lead",
+      "name": {
+        "zh": "陪伴团长",
+        "en": "Companion Lead"
+      },
+      "profession": {
+        "zh": "AI 心理支持与任务陪伴主理人",
+        "en": "AI Psychological Support and Task Companion Lead"
+      },
+      "avatar": "avatars/companion-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "psychological-support-psychodynamic",
+      "name": {
+        "zh": "心理动力学",
+        "en": "Psychodynamic"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-psychodynamic.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-attachment",
+      "name": {
+        "zh": "依恋取向",
+        "en": "Attachment-Informed"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-attachment.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-mentalization",
+      "name": {
+        "zh": "心智化（MBT）",
+        "en": "Mentalization (MBT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-mentalization.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-schema",
+      "name": {
+        "zh": "图式疗法",
+        "en": "Schema Therapy"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-schema.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-emotion-focused",
+      "name": {
+        "zh": "个体情绪聚焦（EFT）",
+        "en": "Individual Emotion-Focused (EFT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-emotion-focused.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-gestalt",
+      "name": {
+        "zh": "格式塔",
+        "en": "Gestalt-Informed"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-gestalt.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-compassion-focused",
+      "name": {
+        "zh": "慈悲聚焦（CFT）",
+        "en": "Compassion-Focused (CFT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-compassion-focused.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-cognitive-behavioral",
+      "name": {
+        "zh": "认知行为（CBT）",
+        "en": "Cognitive Behavioral (CBT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-cognitive-behavioral.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-acceptance-commitment",
+      "name": {
+        "zh": "接纳与承诺（ACT）",
+        "en": "Acceptance and Commitment (ACT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-acceptance-commitment.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-dialectical-skills",
+      "name": {
+        "zh": "辩证行为技能（DBT）",
+        "en": "Dialectical Behavior Skills (DBT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-dialectical-skills.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-interpersonal",
+      "name": {
+        "zh": "人际心理治疗（IPT）视角",
+        "en": "Interpersonal (IPT) Perspective"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-interpersonal.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-systemic",
+      "name": {
+        "zh": "系统式家庭与关系视角",
+        "en": "Systemic Family and Relationship"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-systemic.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-narrative",
+      "name": {
+        "zh": "叙事疗法",
+        "en": "Narrative"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-narrative.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-solution-focused",
+      "name": {
+        "zh": "焦点解决短期疗法（SFBT）",
+        "en": "Solution-Focused Brief (SFBT)"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-solution-focused.png",
+      "role": "member"
+    },
+    {
+      "id": "psychological-support-existential",
+      "name": {
+        "zh": "存在主义取向",
+        "en": "Existential"
+      },
+      "profession": {
+        "zh": "AI 心理支持视角",
+        "en": "AI Psychological Support Perspective"
+      },
+      "avatar": "avatars/psychological-support-existential.png",
+      "role": "member"
+    },
+    {
+      "id": "effective-effort-prioritization",
+      "name": {
+        "zh": "方向与取舍",
+        "en": "Prioritization"
+      },
+      "profession": {
+        "zh": "AI 任务陪伴成员",
+        "en": "AI Task Companion"
+      },
+      "avatar": "avatars/effective-effort-prioritization.png",
+      "role": "member"
+    },
+    {
+      "id": "effective-effort-bottleneck",
+      "name": {
+        "zh": "卡点判断",
+        "en": "Bottleneck Finder"
+      },
+      "profession": {
+        "zh": "AI 任务陪伴成员",
+        "en": "AI Task Companion"
+      },
+      "avatar": "avatars/effective-effort-bottleneck.png",
+      "role": "member"
+    },
+    {
+      "id": "effective-effort-co-execution",
+      "name": {
+        "zh": "共同执行",
+        "en": "Co-Execution"
+      },
+      "profession": {
+        "zh": "AI 任务陪伴成员",
+        "en": "AI Task Companion"
+      },
+      "avatar": "avatars/effective-effort-co-execution.png",
+      "role": "member"
+    },
+    {
+      "id": "effective-effort-feedback",
+      "name": {
+        "zh": "反馈与调整",
+        "en": "Feedback and Adjustment"
+      },
+      "profession": {
+        "zh": "AI 任务陪伴成员",
+        "en": "AI Task Companion"
+      },
+      "avatar": "avatars/effective-effort-feedback.png",
+      "role": "member"
+    },
+    {
+      "id": "effective-effort-emotion-companion",
+      "name": {
+        "zh": "情绪陪伴员",
+        "en": "Emotional Companion"
+      },
+      "profession": {
+        "zh": "AI 任务陪伴成员",
+        "en": "AI Task Companion"
+      },
+      "avatar": "avatars/effective-effort-emotion-companion.png",
+      "role": "member"
+    }
+  ],
+  "homepage": "https://github.com/marike86/Psychology-Inspired-Cognitive-Agents"
+}

@@ -20,18 +20,13 @@
 
 > 若 Releases 中暂未出现 `v1.0.0` 或缺少两个 ZIP 附件，请勿将本页视为已完成发布。两个原始 ZIP 需要作为该 Release 的 Assets 上传；GitHub 自动生成的 “Source code (zip)” 不等于上述平台安装包。
 
-## WorkBuddy 心理支持与任务陪伴 / Psychological Support and Task Companionship
+## WorkBuddy 心理支持与有效努力陪伴团 / Psychological Support and Effective Effort Team
 
-两支独立的 WorkBuddy 专家团均附中英文角色配置、使用说明和客户端验收用例。Two standalone WorkBuddy teams include bilingual role configurations, setup notes and client acceptance checks.
+召唤一个专家团即可开始。在同一会话里，团长会根据你当下的需要倾听、陪做或修复对话，也会在你想继续时接上原来的任务。团队包含 15 位可点名的心理视角成员、4 位任务成员和 1 位情绪陪伴员。
 
-| 团队 / Team | 下载 / Download | 源码与说明 / Source and guide |
-| --- | --- | --- |
-| 心理咨询支持团 / Psychological Support Team | [WorkBuddy ZIP](workbuddy/psychological-support-team-workbuddy-v1.0.0.zip) | [中文](workbuddy/psychological-support/README.md) · [English](workbuddy/psychological-support/README.en.md) |
-| 有效努力陪伴团 / Effective Effort Companion Team | [WorkBuddy ZIP](workbuddy/effective-effort-team-workbuddy-v1.0.0.zip) | [中文](workbuddy/effective-effort/README.md) · [English](workbuddy/effective-effort/README.en.md) |
+Invoke one team to get started. The lead listens, works alongside you, repairs conversational friction and resumes your task in the same chat. The team has 15 selectable psychological perspectives, four task specialists and an Emotional Companion.
 
-心理咨询支持团由人本取向团长按需调度 15 位成员。有效努力陪伴团帮助用户取得可见进展，并由独立情绪陪伴员回应任务挫败和对话摩擦。The support team has fifteen selectable perspectives. The effort team helps users make visible progress and includes a dedicated Emotional Companion for task frustration and conversational friction.
-
-`workbuddy/` 下两个源码目录各自包含团队清单、团长入口、角色文件和头像。Each source directory under `workbuddy/` contains its own manifest, lead settings, role files and avatars. See the [official WorkBuddy team specification](https://open.workbuddy.cn/docs/expert-team).
+**[下载 WorkBuddy ZIP / Download v1.1.0](workbuddy/psychological-companion-team-workbuddy-v1.1.0.zip)** · [中文说明](workbuddy/psychological-companion/README.md) · [English guide](workbuddy/psychological-companion/README.en.md)
 
 ## 设计理念 / Design
 
